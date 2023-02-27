@@ -83,10 +83,10 @@ const Home = () => {
             <PropertyCard
               key={property._id}
               id={property._id}
-              title={property._title}
-              location={property._location}
-              price={property._price}
-              photo={property._photo}
+              title={property.title}
+              location={property.location}
+              price={property.price}
+              photo={property.photo}
             />
           ))}
         </Box>
